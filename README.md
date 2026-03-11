@@ -1,1 +1,2 @@
-# prueba-diagnostica
+# Prueba diagnostica.
+Código realizado en c#.

@@ -22,6 +22,7 @@ namespace PruebaDiagnostica.Exercises
             }
         }
 
+        //Método que retorna true si una palabra es palíndroma o false en caso contrario
         static bool IsPalindrome(string str)
         {
             for (int i = 0; i < str.Length / 2; i++)
