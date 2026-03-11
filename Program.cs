@@ -6,7 +6,8 @@ int option;
 Console.WriteLine("Selecciona un ejercicio:");
 Console.WriteLine("1. Palíndromos");
 Console.WriteLine("2. Edad Exacta");
-Console.WriteLine("3. Fibonacci");
+Console.WriteLine("3. Password Generator");
+Console.WriteLine("4. Fibonacci");
 option = Convert.ToInt32(Console.ReadLine());
 switch (option)
 {
@@ -17,6 +18,9 @@ switch (option)
         EdadExacta.Run();
         break;
     case 3:
+        PasswordGenerator.Run();
+        break;
+    case 4:
         Fibonacci.Run();
         break;
     default:

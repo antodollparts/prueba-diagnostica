@@ -8,9 +8,13 @@ namespace PruebaDiagnostica.Exercises
         //Método para ejecutar el ejercicio
         public static void Run()
         {
-
             Console.WriteLine("Ingresa una palabra para verificar si es palíndroma:");
             string word = Console.ReadLine();
+            if (string.IsNullOrEmpty(word))
+            {
+                Console.WriteLine("La entrada no puede estar vacía.");
+                return;
+            }
             bool isPalindrome = IsPalindrome(word);
             if (isPalindrome)
             {

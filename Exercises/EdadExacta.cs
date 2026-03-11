@@ -24,7 +24,7 @@ namespace PruebaDiagnostica.Exercises
             CalcularEdad(birthDate, currentDate);
         }
 
-        //Metodo que calcula la edad exacta en años, meses, semanas, días y horas
+        //Método que calcula la edad exacta en años, meses, semanas, días y horas
         public static void CalcularEdad(DateTime birthDate, DateTime currentDate)
         {
             int years = currentDate.Year - birthDate.Year;
