@@ -5,6 +5,7 @@ namespace PruebaDiagnostica.Exercises
         //Metodo que obtiene el número de términos y llama al metodo para calcular la secuencia de Fibonacci y los imprime
         public static void Run()
         {
+            Console.WriteLine("\n=== Fibonacci ===");
             Console.WriteLine("Ingresa el número de términos de la secuencia de Fibonacci:");
             int n = Convert.ToInt32(Console.ReadLine());
 

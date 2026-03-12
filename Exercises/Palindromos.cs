@@ -1,6 +1,3 @@
-using System;
-using System.Runtime.CompilerServices;
-
 namespace PruebaDiagnostica.Exercises
 {
     public class Palindromo
@@ -8,8 +5,9 @@ namespace PruebaDiagnostica.Exercises
         //Método para ejecutar el ejercicio
         public static void Run()
         {
+            Console.WriteLine("\n=== Palindromos ===");
             Console.WriteLine("Ingresa una palabra para verificar si es palíndroma:");
-            string word = Console.ReadLine();
+            string? word = Console.ReadLine();
             if (string.IsNullOrEmpty(word))
             {
                 Console.WriteLine("La entrada no puede estar vacía.");

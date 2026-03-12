@@ -1,6 +1,3 @@
-using System;
-using System.Runtime.CompilerServices;
-
 namespace PruebaDiagnostica.Exercises
 {
     public class EdadExacta
@@ -8,6 +5,7 @@ namespace PruebaDiagnostica.Exercises
         //Metodo que obtiene los datos y llama al metodo para calcular la edad exacta
         public static void Run()
         {
+            Console.WriteLine("\n=== Calcular Edad Exacta ===");
             Console.WriteLine("Ingresa tu día de nacimiento:");
             int birthDay = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingresa tu mes de nacimiento:");

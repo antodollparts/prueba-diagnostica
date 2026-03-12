@@ -5,8 +5,9 @@ namespace PruebaDiagnostica.Exercises
         //Metodo que obtiene la longitud de la contraseña y llama al metodo para generar la contraseña
         public static void Run()
         {
+            Console.WriteLine("\n=== Generador de Contraseñas ===");
             Console.WriteLine("Ingresa la longitud de la contraseña:");
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
             if (string.IsNullOrEmpty(input))
             {
                 Console.WriteLine("Por favor, ingresa un número válido para la longitud de la contraseña.");
